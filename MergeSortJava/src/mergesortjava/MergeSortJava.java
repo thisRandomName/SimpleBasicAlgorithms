@@ -65,6 +65,8 @@ public class MergeSortJava {
       
          int i=0, j=0, k=0; //initialization - ο πιο ευκολος τροπος μπαη φαρ με**** 3 indexes kai while loops**** 
          //ΚΑΙ ΟΧΙΙΙΙΙ ΜΕ for ΚΑΙ ΑΗΔΙΕΣ..θυμησου το μπερδεμαααα 
+	 /*Θελω να ξεκινανε οι δεικτες εκει που σταματησαν ευκολα και απλα οποτε δεν μπλεκω με εμφωλευμενα φορ*/ 
+
 	 while (i<ld && j<rd) { //there are elements in both sub-arrays
 	    if (le[i] <= r[j]) {
                    array[k] = le[i]; 
